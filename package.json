@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "now-build": "vue-cli-service build"
+    "now-build": "vue-cli-service build && now"
   },
   "dependencies": {
     "vue": "^2.5.21"
