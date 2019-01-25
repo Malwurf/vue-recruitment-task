@@ -2,9 +2,7 @@
     "version" : 2,
     "name" : "recruitment-task",
     "builds" : [
-        {
-            "src" : "package.json",
-            "use": "@now/static-build"
-        }
+        { "src": "package.json", "use": "@now/static-build"},
+        { "src": "*.html", "use": "@now/html-minifier"}
     ]
 }
